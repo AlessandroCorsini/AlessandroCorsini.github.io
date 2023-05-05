@@ -3,4 +3,4 @@ for Speech and Communication (CTNSC@Unife). I am a Computer Engineer 💻, Polyt
 - 👀 I’m interested in speech Brain-Computer Interfacing (sBCI), Deep Learning for Speech recognition, Neurophisiology of Speech Perception and Production.
 - 🌱 I’m currently studying the role of motor reconstruction of the invisible articulators of the vocal tract during speech listening.
 - 📫 Contact me if you wish to collaborate on these topics: alessandro.corsini@edu.unife.it
-- You can find my docs [here] (https://alessandrocorsini.github.io/docs/mfccs.html)
+- You can find my docs [here](https://alessandrocorsini.github.io/docs/mfccs.html)
