@@ -54,8 +54,8 @@ p {
   text-align: center;
 }
 
-nav {
-  margin-left: 80px;
+.nav {
+  text-align: center;
 }
 
 /* style the links */
