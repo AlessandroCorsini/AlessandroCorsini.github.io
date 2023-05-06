@@ -1,52 +1,57 @@
-/* apply a basic reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* style the body */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	margin: 0;
 }
 
-/* center the container */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
 }
 
-/* style the image */
-.img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
 }
 
-/* style the heading */
-h1 {
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 20px;
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-/* style the paragraph */
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+nav li {
+	display: inline-block;
+	margin-right: 20px;
 }
 
-/* style the links */
-a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
+nav li a {
+	color: #333;
+	text-decoration: none;
 }
 
-a:hover {
-  color: #007bff;
+nav li a:hover {
+	color: #666;
+}
+
+main {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.image-container {
+	margin-right: 20px;
+}
+
+.image-container img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
 }
