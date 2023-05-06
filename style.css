@@ -25,15 +25,15 @@ body {
 }
 
 .image-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 30hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30hv;
 }
 
 .image-container img {
-	max-width: 350px;
-	max-height: 350;
+  max-width: 350px;
+  max-height: 350;
 }
 
 /* style the heading */
@@ -49,9 +49,9 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
   margin-top: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
-	text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
 }
 
 /* style the links */
