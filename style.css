@@ -1,9 +1,58 @@
-/* apply a basic reset */
-* {
+/* Apply bootstrap to the page */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* add a style to the body to be a good looking background */
+/* add a style to the list to the navbar to be a good looking horizontal navbar ast the top of the page */
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #007bff;
 }
+
+/* Put some margin between the item elements */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li:last-child {
+  border-right: none;
+}
+
+/* Add distance between the nav and the header */
+.navbar {
+  margin-bottom: 50px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #007bff;
+  padding: 2px;
+}
+
+/* Put the image on a circle on the left side of the page */
+img {
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/* Put the text on the right side of the image */
+.container {
+  padding: 16px;
+}
+
 
 /* style the body */
 body {
@@ -11,24 +60,26 @@ body {
   background-color: #f2f2f2;
 }
 
-/* center the container */
-.container {
+/* style the header */
+header {
+  background-color: #007bff;
+  padding: 2px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* style the main content */
+main {
+  margin: 0 auto;
   max-width: 800px;
-  margin: 20px;
   padding: 20px;
 }
 
-/* style the image */
-.img {
-  display: block;
-  margin: 0 auto;
-}
-
+/* style the image container */
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30hv;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .image-container img {
@@ -63,5 +114,5 @@ a {
 }
 
 a:hover {
-  color: #007bff;
+  color: #6facef;
 }
