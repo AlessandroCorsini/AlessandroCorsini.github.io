@@ -1,118 +1,44 @@
-/* Apply bootstrap to the page */
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
-
-/* add a style to the body to be a good looking background */
-/* add a style to the list to the navbar to be a good looking horizontal navbar ast the top of the page */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #007bff;
-}
-
-/* Put some margin between the item elements */
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-li {
-  float: left;
-  border-right: 1px solid #bbb;
-}
-
-/* Add a gray right border to all list items, except the last item (last-child) */
-li:last-child {
-  border-right: none;
-}
-
-/* Add distance between the nav and the header */
-.navbar {
-  margin-bottom: 50px;
-}
-
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #007bff;
-  padding: 2px;
-}
-
-/* Put the image on a circle on the left side of the page */
-img {
-  border-radius: 50%;
-  margin-left: 20px;
-}
-
-/* Put the text on the right side of the image */
-.container {
-  padding: 16px;
-}
-
-
-/* style the body */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* style the header */
-header {
-  background-color: #007bff;
-  padding: 2px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
 }
 
-/* style the main content */
 main {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 20px;
+    text-align: center;
+    padding: 2em;
 }
 
-/* style the image container */
-.image-container {
-  text-align: center;
-  margin-bottom: 20px;
+img {
+    max-width: 100%;
+    border-radius: 50%; /* Make the image circular */
 }
 
-.image-container img {
-  max-width: 350px;
-  max-height: 350px;
+.description {
+    margin-top: 1em;
 }
 
-/* style the heading */
-h1 {
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 20px;
+.programming-languages {
+    /* Add styling for programming languages badges */
 }
 
-/* style the paragraph */
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 80px;
-  margin-right: 80px;
-  text-align: center;
+.social-links a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
 }
 
-/* style the links */
-a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-  color: #6facef;
+.social-links img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
 }
