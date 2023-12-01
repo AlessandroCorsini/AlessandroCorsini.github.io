@@ -1,44 +1,142 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header,
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
-    padding: 2em;
 }
 
+/* Header */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: left; /* Align the text to the left */
+    color: #fff; /* Changed the text color to white */
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically */
+}
+
+/* Button with Links */
+header a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px; /* Add margin to create space between buttons */
+}
+
+header h1 {
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: left; /* Adjusted the text alignment to left */
+    color: #fff; /* Changed the text color to white */
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: left; /* Center vertically */
+}
+
+/* Centered Image */
 img {
-    max-width: 100%;
-    border-radius: 50%; /* Make the image circular */
+    display: inline-block; /* Changed the display to inline-block */
+    margin: 0 10px; /* Added margin to create space between logos */
+    border-radius: 10%;
+}
+
+/* Global Styles */
+body {
+    background-color: #111;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+h2, h3, p{
+    color: #fff; /* Changed the text color to white */
+}
+
+.container {
+    display: flex;
+    align-items: center;
 }
 
 .description {
-    margin-top: 1em;
+    flex: 1;
+    margin-left: 20px;
 }
 
-.programming-languages {
-    /* Add styling for programming languages badges */
+.description h2 {
+    margin-top: 0;
 }
 
-.social-links a {
-    margin: 0 1em;
-    color: white;
+.profile-image {
+    width: 500px; /* Adjust the size as needed */
+    height: auto;
+}
+
+header {
+    background-color: #222; /* Light gray */
+}
+
+footer {
+    background-color: #222; /* Slightly darker gray */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Added styling for the projects section */
+.projects {
+    margin-top: 20px;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.projects li a {
+    color: #898989;
     text-decoration: none;
 }
 
-.social-links img {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
+.projects li a:hover {
+    color: #ffffff;
+}
+
+/* Updated styling for the header links */
+header a {
+    color: #898989;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+.header-title {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
