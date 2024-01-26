@@ -9,4 +9,4 @@
 - [Neuromatch Computational Neuroscience project: ECoG Motor Imagery](https://alessandrocorsini.github.io/docs/ECoG_motor_imagery.html)
 
 ### Others
-- [Complementary Encoding of Articulatory Synergies]()
+- [Complementary Neural Encoding of Invisible Articulatory Synergies](https://alessandrocorsini.github.io/docs/Complementary_encoding_of_articulatory_synergies.pdf)
