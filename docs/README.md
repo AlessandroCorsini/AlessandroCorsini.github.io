@@ -3,6 +3,8 @@
 ### Publications
 - [EEG encoding of speech acoustic and articulatory features: A Partial Information Decomposition Study (Thesis)](http://hdl.handle.net/10589/195240)
 - [Speech Perception Difficulty Modulates Theta-band Encoding of Articulatory Synergies](https://doi.org/10.1152/jn.00388.2023)
+- [Emergent Neural Principles of Speech Encoding in Contrastive Joint-Embedding Models -- Poster](https://alessandrocorsini.github.io/docs/Poster.pdf)
+- - [Emergent Neural Principles of Speech Encoding in Contrastive Joint-Embedding Models -- Abstract](https://alessandrocorsini.github.io/docs/Abstract_ICON.pdf)
 
 ### Notebooks
 - [Extracting features from audio: MFCCS](https://alessandrocorsini.github.io/docs/mfccs.html)
